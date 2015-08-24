@@ -1,0 +1,23 @@
+{
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"ecmaFeatures": {
+		"jsx": true,
+		"modules": true
+	},
+	"plugins": [
+		"react",
+	],
+	"rules": {
+		"quotes": [1, "single"],
+		"no-undef": 1,
+		"no-unused-vars": [1, {"args": "none"}],
+		"react/jsx-max-props-per-line": [1, {"maximum": 3}],
+		"react/no-multi-comp": 1,
+		"react/self-closing-comp": 1,
+	}
+}
