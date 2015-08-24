@@ -4,19 +4,19 @@ I use it as the starting point for any React app I build. As there are no React 
 
 # Is this Boilerplate For You?
 
-* Rebuild your app *without losing state*. [LiveReactLoad](https://github.com/milankinen/livereactload) mimics Webpack's killer feature, hot-loading.
+* Rebuild your app **without losing state**. [LiveReactLoad](https://github.com/milankinen/livereactload) mimics Webpack's killer feature, hot-loading.
   * The boilerplate comes with a simple "Hello World" that demonstrates how cool LiveReactLoad is. You'll never go back.
 * Run your app in a local [Browsersync](http://www.browsersync.io/) server.
   * Browsersync rocks because it doesn't just serve your site locally. It also sets up an external address which you can connect to from any device on the same wifi. Want to see local builds and live-reloading on your iPhone? Easy.
-* Future-proof CSS using [PostCSS](https://github.com/postcss/postcss) and [CSS Next](http://cssnext.io/).
+* **Future-proof CSS** using [PostCSS](https://github.com/postcss/postcss) and [CSS Next](http://cssnext.io/).
   * Stop using SASS/LESS/Stylus-specific syntax. Get the same features [with future CSS instead](http://cssnext.io/features/).
   * Changes are automatically rebuilt and injected into the page (Without a refresh).
   * Browser-prefixes automatically applied, and CSS minified for production.
-* Ultra-fast development builds because your 3rd party dependencies are split into their own bundle. When you change files, Browserify only re-compiles your own source files.
-* ES6 / ES2015 (Obviously)
+* **Ultra-fast development builds** because your 3rd party dependencies are split into their own bundle. When you change files, Browserify only re-compiles your own source files.
+* **ES6 / ES2015** (Obviously)
   * Cool sidenote; Gulp now supports ES2015 in the Gulpfile itself.
 * ESLint for code quality.
-  * Includes React-specific rules thanks to eslint-plugin-react. See all of the [available rules here](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules).
+  * Includes **React-specific rules** thanks to eslint-plugin-react. See all of the [available rules here](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules).
   * Recommend installing an eslint plugin in your editor as well, e.g. for [Atom](https://github.com/AtomLinter/linter-eslint) or [Sublime Text 3](https://github.com/roadhump/SublimeLinter-eslint).
 * Use the commands below to run Gulp locally. This prevent issues with different team members running different system versions.
 
@@ -28,7 +28,7 @@ Clone the repository to your machine, then run:
 npm install
 ```
 
-For development (Live reloads, incremental builds, local webserver), run:
+For development (Sets up a local webserver, with automatic builds and live reloading), run:
 
 ```
 npm run build
@@ -75,3 +75,10 @@ Simple add a new line for each `import` you call after installing a library from
 Feel free to [raise an issue](https://github.com/michael-martin/react-gulp-boilerplate/issues) with any questions.
 
 # Other Boilerplates
+
+There are loads of ways to build React apps. If this flow isn't for you, here are some suggestions:
+
+* [React Starter Kit](https://github.com/kriasoft/react-starter-kit) - Everything and the kitchen sink. If you want to build an app using their exact stack, this kit rocks.
+* [Flux React Boilerplate](https://github.com/christianalfoni/flux-react-boilerplatee) - Flux with Gulp/Browserify, but no LiveReactLoad/CSSNext (This is where the idea to split bundles in dev came from, thanks!)
+* [Webpack React Starter](https://github.com/webpack/react-starter) - If you prefer Webpack to Gulp/Browserify (PS - Check out [React Webpack Cookbook](https://christianalfoni.github.io/react-webpack-cookbook/)!)
+* [Coffeescript React Quickstart](https://github.com/KyleAMathews/coffee-react-quickstart) - More Webpack, but tweaked for Coffeescript fans.
