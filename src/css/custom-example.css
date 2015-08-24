@@ -7,3 +7,8 @@ body {
 a:any-link {
   color: var(--linkColor);
 }
+
+.hello-world {
+  width: 50%;
+  margin: 40px auto;
+}

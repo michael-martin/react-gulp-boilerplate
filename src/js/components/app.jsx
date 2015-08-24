@@ -17,9 +17,16 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>
-          <h1>Magical state keeper: {this.state.val}</h1>
-          <input type='text' onChange={(e) => this.onChange(e)} />
+      <div className='hello-world'>
+        <h2>Obligatory Hello World example</h2>
+        <p>Enter your name below, then make a change to the app.jsx file. See how your app re-compiles instantly, and the state (your name) is still preserved?</p>
+        <input
+          onChange={(e) => this.onChange(e)}
+          placeholder='What is your name?'
+          type='text'
+          value={this.state.val}
+        />
+        <p>Hello {this.state.val}</p>
       </div>
     );
   }
