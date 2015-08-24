@@ -1,1 +1,10 @@
+/**
+ * Write your CSS in separate files, and then import all of them here.
+ *
+ * PostCSS will search in node_modules (e.g. normalize.css below) as well as the
+ * CSS directory (e.g. custom-example)
+ */
+@import 'normalize.css';
 
+@import 'variables';
+@import 'custom-example';

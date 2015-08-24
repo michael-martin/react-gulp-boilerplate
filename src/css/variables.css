@@ -1,0 +1,6 @@
+/* Define global variables here. */
+:root {
+--fontSize: 1rem;
+--fontColor: #222;
+--linkColor: hwb(200, 50%, 15%);
+}

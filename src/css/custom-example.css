@@ -1,0 +1,9 @@
+body {
+  color: var(--fontColor);
+  font-size: var(--fontSize);
+  line-height: calc(var(--fontSize) * 2);
+}
+
+a:any-link {
+  color: var(--linkColor);
+}
