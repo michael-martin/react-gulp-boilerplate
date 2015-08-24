@@ -9,7 +9,6 @@
     "dist": "gulp dist"
   },
   "dependencies": {
-    "basscss": "^7.0.3",
     "react": "^0.13.3"
   },
   "devDependencies": {
