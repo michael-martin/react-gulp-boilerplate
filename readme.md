@@ -20,6 +20,8 @@ I use it as the starting point for any React app I build. As there are no React 
   * Recommend installing an eslint plugin in your editor as well, e.g. for [Atom](https://github.com/AtomLinter/linter-eslint) or [Sublime Text 3](https://github.com/roadhump/SublimeLinter-eslint).
 * Use the commands below to run Gulp locally. This prevent issues with different team members running different system versions.
 
+![Screenshot](https://cloud.githubusercontent.com/assets/825998/9446468/c97f0b1e-4a89-11e5-9aa2-a940179ba758.png)
+
 # How to Use
 
 Clone the repository to your machine, then run:
